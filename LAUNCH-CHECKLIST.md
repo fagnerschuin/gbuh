@@ -19,3 +19,10 @@ Anything that isn't verified yet is already in `index.html`, but it's hidden or 
 | Site URL | JSON-LD, og:image | Add `"url"` and make og:image an absolute URL |
 
 Cleanup on the old site: the About and Electrical pages contain an unrelated external recipe link. Remove it.
+
+## Handyman services (added later)
+
+| Item | Where in index.html | What to confirm |
+|---|---|---|
+| The full handyman list | `#handyman` section, plus the "Handyman services" catalog in the JSON-LD | Each item is work the company currently does. Delete the ones it doesn't |
+| Electrical, plumbing and roof work | `#handyman` cards 04–06 | Florida needs a state license for many of these jobs. Confirm what the company is licensed for, or narrow the wording (for example "minor repairs") |
